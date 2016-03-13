@@ -41,10 +41,6 @@ public class DoubleOrderedList<T> extends DoubleList<T> implements DoubleListADT
             DoubleNode<T> current = head;
             DoubleNode<T> newNode  = new DoubleNode<T>(element);
 
-
-
-          //  LinearNode<T> previous = null;
-           // LinearNode<T> newNode  = new LinearNode<T>(element);
             boolean found = false;
 
             if (isEmpty())  // list is empty
@@ -71,20 +67,16 @@ public class DoubleOrderedList<T> extends DoubleList<T> implements DoubleListADT
             {
                 while ((comparableElement.compareTo(current.getElement()) > 0))
                 {
-                    //previous = current;
                     current = current.getNext();
                 }
 
-                //System.out.println(current.getElement());
-                //System.out.println(current.getPrevious().getElement());
                 current.getPrevious().setNext(newNode);
                 newNode.setPrevious(current.getPrevious());
 
                 newNode.setNext(current);
                 current.setPrevious(newNode);
 
-                //newNode.setNext(current);
-                //previous.setNext(newNode);
+
             }
 
             count++;
