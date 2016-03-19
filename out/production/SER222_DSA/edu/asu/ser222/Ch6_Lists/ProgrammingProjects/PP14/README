@@ -1,6 +1,6 @@
 PP6.14
 
 Create an implementation of a doubly linked "DoubleOrderedList" class.
-You will need to create a "DoubleNode"   class, a "DoubleList" class,
+You will need to create a "DoubleNode" class, a "DoubleList" class,
  and a "Double Iterator" class.
 

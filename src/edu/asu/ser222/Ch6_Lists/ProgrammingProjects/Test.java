@@ -11,15 +11,6 @@ import java.util.Iterator;
 public class Test {
 
     public static void main(String[] args) {
-        LinkedOrderedList one = new LinkedOrderedList();
-
-        one.add(1);
-        one.add(5);
-        one.add(3);
-
-
-       // System.out.println(one.size());
-
 
         DoubleOrderedList<Integer> dList = new DoubleOrderedList<Integer>();
 
