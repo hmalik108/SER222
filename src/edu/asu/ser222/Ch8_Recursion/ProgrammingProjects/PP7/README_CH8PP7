@@ -1,0 +1,17 @@
+
+
+
+Design and implement a recursive program to determine and print the Nth line of Pascal's Triangle.,
+as shown below. Each interior value is the sum of the two values above it.
+ ( Hint: Use an array to store the values one each line.)
+
+
+
+
+                                 1
+                               1    1
+                             1    2   1
+                           1   3    3   1
+                         1   4    6   4   1
+                        1  5   10    10  5  1
+
